@@ -1,0 +1,14 @@
+body{
+  background-color: grey;
+  color: black;
+  padding-top: 15%;
+}
+
+h1{
+  font-family: 'VT323', monospace;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+}

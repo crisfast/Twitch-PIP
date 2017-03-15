@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Twitch PIP</title>
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        require('./index.js');
+        require('tether');
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> 
+
+<body>
+    <div class="container text-center">
+        <h1>Welcome to Twitch PIP!</h1>
+        <h4>Please insert a streamer name.</h4>
+
+        <div class="searchArea">
+            <input type="text" id="streamName" value="">
+            <button type="button" id="buttonPIP">Open PIP</button>
+        </div>
+    </div>
+
+    <div class="footer text-center">
+        &copy; <script>document.write(new Date().getFullYear() + ", "); </script> crisfast
+    </div>
+</body>
+
+</html>

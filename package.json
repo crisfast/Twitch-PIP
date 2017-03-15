@@ -1,0 +1,14 @@
+{
+  "name": "twitch-pip",
+  "version": "1.0.0",
+  "description": "A simple way to watch Twitch in Picture-in-Picture mode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "crisfast",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
+}
